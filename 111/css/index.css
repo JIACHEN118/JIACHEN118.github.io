@@ -1,0 +1,1734 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.header {
+    width: 1920px;
+    height: 75px;
+    background: rgba(60, 59, 58, 1);
+    display: flex;
+    flex-direction: row;
+    padding: 0px 140px;
+    justify-content: space-between;
+
+}
+
+
+.header .h-left {
+    width: 86px;
+    height: 75px;
+    line-height: 75px;
+    margin-top: -5px;
+
+}
+
+.header .h-left img {
+    width: 100%;
+}
+
+.header .h-right {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.header .h-right a {
+    text-decoration: none;
+    width: 44px;
+    height: 21px;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(242, 242, 242, 1);
+    margin-right: 54px;
+}
+
+.header .h-right a.active {
+    width: 51px;
+    height: 24px;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+
+.content {
+    width: 1920px;
+    padding: 0px 140px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+.c-t {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 92px;
+    margin-bottom: 34px;
+}
+
+.content .c-t-left {
+    width: 674px;
+    height: 798px;
+    margin-right: 16px;
+}
+
+.content .c-t-left h1 {
+    width: 536px;
+    height: 172px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(60, 59, 58, 1);
+    margin-top: 71px;
+}
+
+.content .c-t-left .desc {
+    width: 536px;
+    height: 90px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(60, 59, 58, 1);
+    margin-top: 65px;
+    margin-bottom: 68px;
+}
+
+.content .c-t-left ul {
+    display: flex;
+    list-style: none;
+    padding-right: 140px;
+}
+
+.content .c-t-left ul li {
+    margin-right: 60px;
+    text-align: center;
+}
+
+
+.content .c-t-left ul li img {
+    width: 34.88px;
+    height: 34.88px;
+    background: Red;
+}
+
+.content .c-t-left ul li p {
+    margin: 0;
+    height: 21px;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(38, 166, 130, 1);
+    white-space: nowrap;
+}
+
+.content .c-t-left button {
+    width: 340px;
+    height: 65px;
+    background: rgba(38, 166, 130, 1);
+    box-shadow: 0px 10px 10px rgba(18, 74, 58, 0.5);
+    opacity: 1;
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 65px;
+    color: rgba(242, 242, 242, 1);
+    margin-top: 65px;
+}
+
+.content .c-t-right {
+    width: 951px;
+    height: 753.41px;
+}
+
+
+
+.content .c-t-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content .c-b {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.content .c-b p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+}
+
+.content .c-b img {
+    transform: rotate(180deg);
+    width: 49.79px;
+    height: 49.79px;
+}
+
+.discover-s {
+    padding: 82px 140px;
+    width: 1920px;
+    height: 500px;
+    background: rgba(242, 242, 242, 1);
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.discover-s .imgBx {
+    width: 813px;
+    height: 337px;
+    margin-right: 14px;
+}
+
+.imgBx.school {
+    background: url(./../images/school.jpg) no-repeat -174px -185px;
+    background-size: 1034px 682px;
+}
+
+.imgBx.entertainment {
+    background: url(./../images/entertainment.jpg) no-repeat center center;
+    background-size: 815px 545px;
+}
+
+.discover-s .textBx {
+    width: 813px;
+    height: 337px;
+    padding: 5px 0px 0px 26px;
+}
+
+.discover-s .textBx h1 {
+    height: auto;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 53px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 4px;
+}
+
+.discover-s .textBx strong {
+    width: 262px;
+    height: 43px;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 43px;
+    color: rgba(38, 166, 130, 1);
+    opacity: 1;
+    margin-bottom: 14px;
+}
+
+.discover-s .textBx p {
+    width: 787px;
+    height: 110px;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 300;
+    line-height: 35px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 73px;
+}
+
+.discover-s .textBx button {
+    width: 230px;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    font-size: 27px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: rgba(242, 242, 242, 1);
+    background: rgba(38, 166, 130, 1);
+    box-shadow: 0px 10px 10px rgba(18, 74, 58, 0.5);
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+
+}
+
+.center {
+    width: 1920px;
+    height: 250px;
+    background: rgba(60, 59, 58, 1);
+    opacity: 1;
+    padding: 38px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center .info {
+    width: 551px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center .info img {
+    width: 175px !important;
+    height: 175px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin-right: 107px;
+}
+
+.center .info .name {
+    width: 164px;
+    height: 67px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+    margin-right: 106px;
+}
+
+.center .introduce {
+    width: 1089px;
+    height: 140px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+}
+
+.discover-s.next {
+    flex-direction: row-reverse;
+}
+
+.discover-s.next .imgBx {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.discover-s.next .textBx {
+    width: 813px;
+    height: 337px;
+    padding: 5px 26px 0px 0px
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    width: 1920px;
+    height: 125px;
+    background: rgba(60, 59, 58, 1);
+    opacity: 1;
+}
+
+.footer p {
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+    margin-top: 29px;
+    margin: auto;
+    padding-top: 29px;
+    margin-bottom: 7px;
+}
+
+.footer div img {
+    width: 25.11px;
+    height: 25.11px;
+    margin-right: 12px;
+    object-fit: cover;
+}
+
+.footer .back {
+
+    position: absolute;
+    right: 28px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.footer .back img {
+    width: 49.79px;
+    height: 49.79px;
+    object-fit: cover;
+    margin-bottom: 0;
+    margin-right: 0px;
+}
+
+.footer .back p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+}
+
+.contact-t {
+    width: 1920px;
+    padding: 162px 140px 42px 140px;
+    display: flex;
+}
+
+.contact-t .contact-tl {
+    width: 950px;
+    margin-right: 62px;
+
+}
+
+.contact-t .contact-tl h1 {
+    width: 812px;
+    height: 172px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.contact-t .contact-tl p {
+    margin: 0;
+    width: 950px;
+    height: 75px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 49px;
+}
+
+.contact-t .contact-tl img {
+    display: block;
+    width: 734px;
+    height: 489px;
+    margin: auto;
+
+}
+
+.contact-t form {
+    width: 628px;
+    height: 801px;
+    background: rgba(38, 166, 130, 1);
+    box-shadow: 10px 10px 7px rgba(20, 64, 51, 0.15);
+    opacity: 1;
+    border-radius: 25px;
+    padding: 16px 46px 26px 46px;
+}
+
+.contact-t form h1 {
+    height: 96px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+    margin-bottom: 21px;
+}
+
+.contact-t form p {
+    height: 32px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.contact-t form input {
+    width: 536px;
+    height: 50px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    border-radius: 72px;
+    padding: 14px 0px 14px 34px;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(60, 59, 58, 0.60);
+    margin-bottom: 17px;
+    outline: 0;
+    border: 0;
+}
+
+
+.contact-t form textarea {
+    width: 536px;
+    height: 148px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: rgba(60, 59, 58, 0.60);
+    margin-bottom: 20px;
+    padding: 14px 34px;
+}
+
+.contact-t form button {
+    width: 210px;
+    height: 65px;
+    background: rgba(60, 59, 58, 1);
+    box-shadow: 0px 10px 10px rgba(18, 74, 58, 0.5);
+    opacity: 1;
+    border-radius: 40px;
+    outline: 0;
+    border: 0;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 53px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+    float: right;
+}
+
+.contact-b {
+    display: flex;
+    padding: 125px 140px 127px 140px;
+}
+
+.contact-b .contact-bl {
+    width: 812px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.contact-b .contact-bl h1 {
+    width: 812px;
+    height: 86px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.contact-b .contact-bl p {
+    width: 812px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 53px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.contact-b .contact-bl div {
+    width: 812px;
+    height: 329px;
+    opacity: 1;
+
+}
+
+.contact-b .contact-bl div p {
+    font-size: 18px;
+    font-family: Raleway;
+    height: 35px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 35px;
+    color: rgba(60, 59, 58, 1);
+
+}
+
+.contact-b .contact-br {
+    width: 812px;
+    height: 500px;
+    background: url(./../images/location.png) no-repeat -295px -16px;
+    background-size: 1202px 585px;
+}
+
+.about-t {
+    padding: 148px 140px 147px 140px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+
+}
+
+
+.about-t .about-tl {
+    width: 812px;
+    margin-top: 13px;
+
+}
+
+.about-t .about-tl h1 {
+    width: 812px;
+    height: 172px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+.about-t .about-tl strong,
+.about-t .about-tl p {
+    width: 812px;
+    font-size: 24px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(60, 59, 58, 1);
+}
+
+.about-t .about-tl strong {
+    height: 66px;
+    display: block;
+    margin-bottom: 37px;
+}
+
+.about-t .about-tl p {
+    height: 178px;
+}
+
+div.bg {
+    position: relative;
+    width: 1920px;
+    height: 250px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 250px;
+    color: rgba(242, 242, 242, 1);
+    text-align: center;
+    background-blend-mode: overlay;
+}
+
+div.bg.bg_1 {
+    background: #26A682 url("./../images/about.jpg") no-repeat center center;
+}
+
+
+div.bg.bg_2 {
+    background: #26A682 url(./../images/services.jpg) no-repeat -28px -487px;
+    background-size: 2035px 1228px;
+}
+
+/* .bg div {
+    position: absolute;
+    width: 1920px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+} */
+
+.about-c {
+    width: 1920px;
+    padding: 225px 140px;
+    display: flex;
+    background: rgba(242, 242, 242, 1);
+}
+
+.about-c div {
+    width: 500px;
+    margin-right: 70px;
+}
+
+.about-c div:last-child {
+    margin-right: 0;
+}
+
+.about-c div h1 {
+    width: 100%;
+    height: 47px;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 53px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.about-c div p {
+    width: 100%;
+    height: 233px;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+}
+
+.about-c div.bg.bg_2 {
+    background-image: url(./../images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1920px 1177px;
+}
+
+.about-c div.bg.bg_2 p {
+    width: 276px;
+    height: 96px;
+}
+
+.discover-s.white {
+    background: rgba(255, 255, 255, 1);
+}
+
+.discover-s.white p {
+    height: auto;
+}
+
+.imgBx.bar {
+    background: url(./../images/bar.jpg) no-repeat center center;
+    background-size: 814px 609px;
+}
+
+.imgBx.bowling {
+    background: url(./../images/bowling.jpg) no-repeat center center;
+    background-size: 814px 609px;
+}
+
+.imgBx.fitness {
+    background: url(./../images/fitness.jpg) no-repeat center center;
+    background-size: 813px 526px;
+}
+
+.imgBx.climbing {
+    background: url(./../images/climbing.jpg) no-repeat center -100px;
+    background-size: 814px 492px;
+}
+
+.tip {
+    width: 1920px;
+    height: 100px;
+    background: rgba(60, 59, 58, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip p {
+    height: 53px;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 53px;
+    color: rgba(242, 242, 242, 1);
+    opacity: 1;
+}
+
+.tip button {
+    width: 232px;
+    height: 45px;
+    line-height: 45px;
+    background: rgba(38, 166, 130, 1);
+    opacity: 1;
+    border-radius: 40px;
+    font-size: 27px;
+    font-family: Raleway;
+    font-weight: bold;
+    color: rgba(242, 242, 242, 1);
+    outline: 0;
+    border: 0;
+    margin-left: 58px;
+}
+
+.thanks {
+    width: 1920px;
+    height: 700px;
+    background: rgba(255, 255, 255, 1);
+    padding: 138px 140px 138px 140px;
+    text-align: center;
+}
+
+.thanks h1 {
+    height: 180px;
+    font-size: 72px;
+    font-family: Raleway;
+    font-weight: bold;
+    line-height: 96px;
+    color: rgba(60, 59, 58, 1);
+    opacity: 1;
+    line-height: 180px;
+    margin-bottom: 76px;
+
+}
+
+.thanks .pic {
+    display: flex;
+    height: 202px;
+    height: 1920px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:769px) {
+    .header {
+        width: 768px;
+        padding: 0px 80px;
+        flex-direction: row;
+    }
+
+    .content {
+        width: 768px;
+        padding: 0px 80px;
+        margin-top: 80px;
+    }
+
+    .content .c-t {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content .c-t-left {
+        width: 607px;
+        height: auto;
+    }
+
+    .content .c-t-left h1 {
+        margin-top: 0;
+    }
+
+    .content .c-t-left .desc {
+        width: 607px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .content .c-t-left .small-logo {
+        padding-right: 0;
+        width: 607px;
+        margin: 0;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content .c-t-left .small-logo li {
+        margin: 0;
+    }
+
+    .content .c-t-left button {
+        width: 300px;
+        height: 65px;
+        margin-top: 40px;
+        margin-left: 154px;
+        margin-bottom: 41px;
+    }
+
+    .content .c-t .c-t-right {
+        width: 350px;
+        height: 277px;
+        margin-bottom: 20px;
+    }
+
+    .content .c-t .c-t-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .content .c-b img {
+        width: 26px;
+        height: 26px;
+        margin-bottom: 13px;
+    }
+
+    .discover-s,
+    .discover-s.next {
+        width: 768px;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(255, 255, 255, 1);
+
+    }
+
+    .discover-s .imgBx,
+    .discover-s.next .imgBx {
+        width: 768px;
+        height: 200px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .imgBx.school {
+        background: url(./../images/school.jpg) no-repeat -155px -280px;
+        background-size: 925px 615px;
+    }
+
+    .discover-s .textBx,
+    .discover-s.next .textBx {
+        height: auto;
+        padding: 37px 80px 41px 82px;
+    }
+
+    .discover-s .textBx p,
+    .discover-s.next .textBx p {
+        width: 606px;
+        height: auto;
+        margin: 0;
+    }
+
+    .center {
+        padding: 40px 80px 40px 80px;
+        width: 768px;
+        height: 445px;
+        background: rgba(60, 59, 58, 1);
+        opacity: 1;
+        align-items: flex-start;
+    }
+
+    .center .info {
+        width: 175px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .center .info img {
+        width: 175px;
+        height: 175px;
+        margin-bottom: 45px;
+    }
+
+    .center .info p {
+        width: 164px;
+        height: 67px;
+        text-align: center;
+    }
+
+    .center .introduce {
+        width: 374px;
+        height: 365px;
+    }
+
+    .footer {
+        width: 768px;
+    }
+
+    .footer .back {
+        right: 32px;
+    }
+
+    .footer .back img {
+        width: 22.23px;
+        height: 22.23px;
+        margin-bottom: 2px;
+    }
+
+    .footer .back p {
+        font-size: 9px;
+        height: 12px;
+        line-height: 12px;
+    }
+
+    .about-t {
+        width: 768px;
+        overflow: hidden;
+        flex-direction: column;
+        padding: 75px 80px 25px 80px;
+        align-items: center;
+    }
+
+    .about-t .about-tl {
+        width: 608px;
+        margin-top: 0px;
+    }
+
+    .about-t .about-tl h1 {
+        width: 608px;
+        height: auto;
+    }
+
+
+    .about-t .about-tl strong,
+    .about-t .about-tl p {
+        width: 608px;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+
+    .about-t .about-tr img {
+        width: 538px;
+        height: 350px
+    }
+
+    div.bg {
+        width: 768px;
+        height: 200px;
+        font-size: 56px;
+        line-height: 200px;
+    }
+
+    div.bg.bg_1 {
+        background: #26A682 url(./../images/about.jpg) no-repeat center center;
+        background-size: 778px 513px;
+    }
+
+    div.bg.bg_2 {
+        background: #26A682 url(./../images/services.jpg) no-repeat -52px -174px;
+        background-size: 877px 500px;
+    }
+
+
+
+    .about-c {
+        padding: 40px 80px 20px 80px;
+        flex-direction: column;
+    }
+
+    .about-c div {
+        width: 608px;
+        margin-right: 0px;
+    }
+
+    .about-c div p {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .discover-s.white,
+    .discover-s.glay {
+        width: 768px;
+        padding: 63px 80px;
+    }
+
+    .discover-s.glay {
+        background: rgba(242, 242, 242, 1);
+    }
+
+    .discover-s.white .imgBx,
+    .discover-s.glay .imgBx {
+        width: 218px;
+        height: 374.51px;
+
+    }
+
+    .discover-s .textBx strong {
+        margin-bottom: 9px;
+    }
+
+    .discover-s.white .imgBx {
+        margin-right: 18px;
+    }
+
+    .discover-s.glay .imgBx {
+        margin-left: 16px;
+    }
+
+    .discover-s.white .textBx p {
+        width: 372px;
+        height: auto;
+    }
+
+    .discover-s.glay .textBx p {
+        width: 350px;
+        height: auto;
+    }
+
+    .discover-s.white .textBx,
+    .discover-s.next.glay .textBx {
+        width: 374px;
+        height: auto;
+        padding: 0;
+    }
+
+    .discover-s.white {
+        flex-direction: row;
+    }
+
+
+    .discover-s.glay {
+        flex-direction: row-reverse;
+    }
+
+    .imgBx.bar {
+        background: url(./../images/bar.jpg) no-repeat -68px center;
+        background-size: 462px 374.5px;
+    }
+
+    .imgBx.bowling {
+        background: url(./../images/bowling.jpg) no-repeat center center;
+        background-size: 524px 374.5px;
+    }
+
+    .imgBx.fitness {
+        background: url(./../images/fitness.jpg) no-repeat center center;
+        background-size: 561px 374.5px;
+    }
+
+    .imgBx.climbing {
+        background: url(./../images/climbing.jpg) no-repeat center center;
+        background-size: 621px 374.5px;
+    }
+
+    .thanks {
+        width: 768px;
+        height: auto;
+        padding: 51px 80px 51px 80px;
+        text-align: center;
+    }
+
+    .thanks h1 {
+        width: 608px;
+        height: auto;
+        font-size: 56px;
+        line-height: 74px;
+        height: 180px;
+        margin-bottom: 31px;
+    }
+
+    .thanks .pic {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .thanks .pic img:first-child {
+        margin-bottom: 44px;
+    }
+
+    .thanks .pic img:nth-child(2) {
+        margin-bottom: 31px;
+    }
+
+    .thanks .pic img:nth-child(3) {
+        margin-bottom: 72px;
+    }
+
+    .tip {
+        width: 768px;
+        height: 75px;
+        background: rgba(60, 59, 58, 1);
+    }
+
+    .tip p {
+        height: 32px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .tip button {
+        width: 140px;
+        font-size: 24px;
+        margin-left: 82px;
+    }
+
+    .contact-t {
+        width: 768px;
+        padding: 75px 80px 45px 80px;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .contact-t .contact-tl {
+        width: 608px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .contact-t .contact-tl h1 {
+
+        width: 608px;
+    }
+
+    .contact-t .contact-tl p {
+        width: 608px;
+        margin-bottom: 5px;
+        height: auto;
+
+    }
+
+    .contact-t .contact-tl img {
+        width: 452px;
+        height: 305px;
+    }
+
+    .contact-t form {
+        width: 608px;
+    }
+
+    .contact-t form input,
+    .contact-t form textarea {
+        width: 516px;
+    }
+
+    .contact-b {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .contact-b .contact-bl {
+        padding: 25px 80px 25px 80px;
+        width: 768px;
+        margin: 0px;
+    }
+
+    .contact-b .contact-bl h1 {
+        width: 608px;
+    }
+
+    .contact-b .contact-bl p {
+        width: 608px;
+        height: auto;
+        margin-bottom: 23px;
+    }
+
+    .contact-b .contact-bl div {
+        width: 608px;
+        height: 181px;
+    }
+
+    .contact-b .contact-br {
+        width: 768px;
+        height: 500px;
+        background: url(./../images/location.png) no-repeat -295px -25px;
+        background-size: 1202px 570px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        width: 375px;
+        overflow: hidden;
+    }
+
+    /* 头部 */
+    .header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .h-left {
+        margin-bottom: 21px;
+    }
+
+    .header .h-left .img {
+        width: 375px;
+
+    }
+
+    .header .h-right {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header .h-right a {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .header .h-right a.active {
+        width: 100%;
+    }
+
+
+    /* home中间 */
+
+    .content {
+        width: 375px;
+        padding: 25px 37px 0px 37px;
+        margin-top: 0;
+    }
+
+    .content .c-t {
+        width: 301px;
+
+    }
+
+    .content .c-t .c-t-left {
+        width: 301px;
+    }
+
+    .content .c-t .c-t-left h1 {
+        width: 301px;
+        height: 94px;
+        font-size: 40px;
+        font-family: Raleway;
+        font-weight: bold;
+        line-height: 53px;
+    }
+
+    .content .c-t .desc {
+        width: 301px;
+        height: auto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 35px;
+        margin-top: 19px;
+        margin-bottom: 15px;
+    }
+
+    .content .c-t-left .small-logo {
+        width: 301px;
+        margin-bottom: 8px;
+    }
+
+    .content .c-t-left .small-logo li {
+        width: 50%;
+        margin-bottom: 22px;
+    }
+
+    .content .c-t-left button {
+        font-size: 32px;
+        font-family: Raleway;
+        font-weight: bold;
+        line-height: 43px;
+        height: 50px;
+        line-height: 50px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .content .c-t .c-t-right {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .content .c-b {
+        display: none;
+    }
+
+    .discover-s {
+        width: 375px;
+    }
+
+    .discover-s .imgBx,
+    .discover-s.next .imgBx {
+        width: 375px;
+        height: 200px;
+    }
+
+    .imgBx.school {
+        background: url(./../images/school.jpg) no-repeat -99px -91px;
+        background-size: 512px 342px;
+    }
+
+    .imgBx.entertainment {
+        background: url(./../images/entertainment.jpg) no-repeat center center;
+        background-size: 376px 250px;
+    }
+
+    .discover-s .textBx,
+    .discover-s.next .textBx {
+        width: 375px;
+        height: auto;
+        padding: 25px 37px 35px 37px;
+    }
+
+    .discover-s .textBx h1 {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .discover-s .textBx strong {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .discover-s .textBx p,
+    .discover-s.next .textBx p {
+        width: 300px;
+        height: 240px;
+        line-height: 35px;
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .discover-s.next .textBx p {
+        height: 270px;
+    }
+
+    .discover-s .textBx button,
+    .discover-s.next .textBx button {
+        font-size: 20px;
+        font-family: Raleway;
+        font-weight: bold;
+        width: 146px;
+        height: 45px;
+        background: rgba(38, 166, 130, 1);
+        box-shadow: 0px 10px 10px rgba(18, 74, 58, 0.5);
+        opacity: 1;
+        border-radius: 40px;
+    }
+
+    .center {
+        width: 375px;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 30px 37px 50px 36px;
+    }
+
+    .center .info img {
+        margin-bottom: 25px;
+    }
+
+    .center .info .name {
+        width: 190px;
+        margin-bottom: 20px;
+    }
+
+    .center .introduce {
+        width: 302px;
+        height: auto;
+    }
+
+
+
+    /* contact中间部 */
+    .contact-t {
+        width: 375px;
+        padding: 25px 37px 50px 36px;
+    }
+
+    .contact-t .contact-tl h1 {
+        width: 302px;
+        height: 177px;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 67px;
+
+    }
+
+    .contact-t .contact-tl {
+        width: 302px;
+        margin-bottom: 15px;
+    }
+
+    .contact-t .contact-tl p {
+        width: 302px;
+        height: 205px;
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+
+    .contact-t .contact-tl img {
+        width: 302px;
+        height: 204px;
+    }
+
+    .contact-t form {
+        width: 304px;
+        padding: 15px 14px 30px 15px;
+        height: auto;
+    }
+
+    .contact-t form h1 {
+        height: 53px;
+        font-size: 40px;
+        line-height: 53px;
+        margin-bottom: 7px;
+    }
+
+    .contact-t form p {
+        height: 24px;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 4px;
+    }
+
+    .contact-t form input {
+        padding: 9px 12px 10px 20px;
+        width: 275px;
+        height: 40px;
+        border-radius: 72px;
+        margin-bottom: 13px;
+    }
+
+    .contact-t form textarea {
+        width: 275px;
+        height: 100px;
+        padding: 8px 20px;
+    }
+
+    .contact-t form button {
+        width: 270px;
+        height: 50px;
+        background: rgba(60, 59, 58, 1);
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .contact-b .contact-bl {
+        padding: 25px 37px;
+        width: 375px;
+    }
+
+    .contact-b .contact-bl h1 {
+        width: 301px;
+        height: 45px;
+        font-size: 40px;
+        line-height: 53px;
+        margin-bottom: 15px;
+    }
+
+    .contact-b .contact-bl p {
+        width: 301px;
+        height: 60px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+
+    .contact-b .contact-bl div {
+        width: 301px;
+        height: 181px;
+    }
+
+    .contact-b .contact-bl div p {
+        font-size: 16px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .contact-b .contact-br {
+        width: 375px;
+        height: 250px;
+        background: url(./../images/location.png) no-repeat -112px -12px;
+        background-size: 590px 283px;
+    }
+
+
+    /* about中间 */
+    .about-t {
+        width: 375px;
+        padding: 25px 37px 25px 37px;
+    }
+
+    .about-t .about-tl {
+        width: 302px;
+    }
+
+    .about-t .about-tl h1 {
+        width: 302px;
+        line-height: 53px;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-t .about-tl strong,
+    .about-t .about-tl p {
+        width: 302px;
+        height: auto;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .about-t .about-tl p {
+        margin-bottom: 16px;
+    }
+
+    .about-t .about-tr img {
+        width: 301px;
+        height: 185px;
+    }
+
+    div.bg {
+        width: 375px;
+        height: 200px;
+        font-size: 50px;
+        line-height: 200px;
+        opacity: 1;
+    }
+
+    div.bg.bg_1 {
+        background: #26A682 url(./../images/about.jpg) no-repeat center center;
+        background-size: 379px 253px;
+    }
+
+    div.bg.bg_2 {
+        background: #26A682 url(./../images/services.jpg) no-repeat -19px -39px;
+        background-size: 416px 250px;
+    }
+
+
+
+    .about-c {
+        width: 375px;
+        padding: 25px 37px 5px 36px;
+        flex-direction: column;
+    }
+
+    .about-c div {
+        width: 302px;
+    }
+
+    .about-c div h1 {
+        height: 47px;
+        font-size: 40px;
+        line-height: 53px;
+        margin-bottom: 15px;
+    }
+
+    .about-c div p {
+        font-size: 16px;
+    }
+
+    .discover-s.white .imgBx,
+    .discover-s.glay .imgBx {
+        display: none;
+    }
+
+    .discover-s.white,
+    .discover-s.glay {
+        width: 375px;
+        padding: 20px 37px 25px 36px;
+    }
+
+    .discover-s.white .textBx p,
+    .discover-s.glay .textBx p {
+        width: 302px;
+        height: auto;
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .discover-s.white .textBx,
+    .discover-s.next.glay .textBx {
+        width: 302px;
+        height: auto;
+        padding: 0;
+    }
+
+    .tip {
+        width: 375px;
+        height: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tip p {
+        height: 24px;
+        font-size: 18px;
+        font-family: Raleway;
+        font-weight: 500;
+        line-height: 35px;
+        color: rgba(242, 242, 242, 1);
+        opacity: 1;
+        margin-bottom: 16px;
+    }
+
+    .tip button {
+        margin-left: 0;
+        width: 140px;
+        height: 35px;
+        font-size: 20px;
+        line-height: 35px;
+        opacity: 1;
+    }
+
+    .thanks {
+        width: 375px;
+        padding: 30px 37px 0px 36px;
+    }
+
+    .thanks h1 {
+        width: 302px;
+        height: auto;
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+
+    .thanks .pic img:first-child {
+        width: 301px;
+        height: 87px;
+        margin-bottom: 44px;
+    }
+
+    .thanks .pic img {
+        margin-bottom: 44px;
+    }
+
+    /* 底部 */
+    .footer {
+        width: 375px;
+    }
+
+    .footer .back {
+        right: 21px;
+    }
+
+    .footer .back p {
+
+        height: 12px;
+        font-size: 9px;
+        font-family: Raleway;
+        font-weight: 400;
+
+    }
+
+
+
+}
