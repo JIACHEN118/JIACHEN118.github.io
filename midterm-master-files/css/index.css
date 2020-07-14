@@ -17,7 +17,7 @@ html {
 
 
 .header {
-    width: 1920px;
+    max-width: 100%;
     height: 75px;
     background: rgba(60, 59, 58, 1);
     display: flex;
@@ -69,6 +69,7 @@ html {
 
 
 .content {
+    max-width: 100%;
     width: 1920px;
     padding: 0px 140px;
     background: rgba(255, 255, 255, 1);
@@ -82,6 +83,7 @@ html {
     align-items: center;
     margin-top: 92px;
     margin-bottom: 34px;
+    background: url("../images/discover.svg") no-repeat 100%;
 }
 
 .content .c-t-left {
@@ -160,6 +162,7 @@ html {
 }
 
 .content .c-t-right {
+    display: none;
     width: 951px;
     height: 753.41px;
 }
@@ -195,9 +198,9 @@ html {
 }
 
 .discover-s {
+    max-width: 100%;
     padding: 82px 140px;
     width: 1920px;
-    height: 500px;
     background: rgba(242, 242, 242, 1);
     opacity: 1;
     display: flex;
@@ -205,24 +208,22 @@ html {
 }
 
 .discover-s .imgBx {
-    width: 813px;
-    height: 337px;
+    width: 50%;
     margin-right: 14px;
 }
 
 .imgBx.school {
-    background: url(./../images/school.jpg) no-repeat -174px -185px;
-    background-size: 1034px 682px;
+    background: url(./../images/school.jpg) no-repeat center center;
+    background-size: calc(100% + 174px) 682px;
 }
 
 .imgBx.entertainment {
     background: url(./../images/entertainment.jpg) no-repeat center center;
-    background-size: 815px 545px;
+    background-size: 815px 682px;
 }
 
 .discover-s .textBx {
-    width: 813px;
-    height: 337px;
+    max-width: 49.7%;
     padding: 5px 0px 0px 26px;
 }
 
@@ -250,8 +251,9 @@ html {
 }
 
 .discover-s .textBx p {
-    width: 787px;
-    height: 110px;
+    width: 100%;
+    /* width: 787px; */
+    /* height: 110px; */
     font-size: 18px;
     font-family: Raleway;
     font-weight: 300;
@@ -279,8 +281,8 @@ html {
 }
 
 .center {
+    max-width: 100%;
     width: 1920px;
-    height: 250px;
     background: rgba(60, 59, 58, 1);
     opacity: 1;
     padding: 38px 140px;
@@ -318,8 +320,7 @@ html {
 }
 
 .center .introduce {
-    width: 1089px;
-    height: 140px;
+    height: auto;
     font-size: 24px;
     font-family: Raleway;
     font-weight: 400;
@@ -339,17 +340,16 @@ html {
 
 .discover-s.next .textBx {
     width: 813px;
-    height: 337px;
     padding: 5px 26px 0px 0px
 }
 
 .footer {
     position: relative;
-    text-align: center;
-    width: 1920px;
+    width: 100%;
     height: 125px;
     background: rgba(60, 59, 58, 1);
     opacity: 1;
+    text-align: center;
 }
 
 .footer p {
@@ -373,7 +373,6 @@ html {
 }
 
 .footer .back {
-
     position: absolute;
     right: 28px;
     top: 50%;
@@ -401,20 +400,22 @@ html {
 }
 
 .contact-t {
-    width: 1920px;
+    width: 100%;
     padding: 162px 140px 42px 140px;
     display: flex;
 }
 
 .contact-t .contact-tl {
+    min-width: 400px;
     width: 950px;
     margin-right: 62px;
 
 }
 
 .contact-t .contact-tl h1 {
-    width: 812px;
-    height: 172px;
+    width: 100%;
+    max-width: 812px;
+    height: auto;
     font-size: 72px;
     font-family: Raleway;
     font-weight: bold;
@@ -426,8 +427,8 @@ html {
 
 .contact-t .contact-tl p {
     margin: 0;
-    width: 950px;
-    height: 75px;
+    width: 100%;
+    min-height: 75px;
     font-size: 24px;
     font-family: Raleway;
     font-weight: 400;
@@ -440,12 +441,15 @@ html {
 .contact-t .contact-tl img {
     display: block;
     width: 734px;
-    height: 489px;
+    max-width: 100%;
+    /* height: 100%; */
+    max-height: 489px;
     margin: auto;
 
 }
 
 .contact-t form {
+    height: auto;
     width: 628px;
     height: 801px;
     background: rgba(38, 166, 130, 1);
@@ -528,19 +532,21 @@ html {
 }
 
 .contact-b {
+    width: 100%;
     display: flex;
     padding: 125px 140px 127px 140px;
 }
 
 .contact-b .contact-bl {
-    width: 812px;
+    flex: 1;
+    /* min-width: 100px;
+    width: 813px; */
     height: auto;
     margin-right: 16px;
 }
 
 .contact-b .contact-bl h1 {
-    width: 812px;
-    height: 86px;
+    width: 100%;
     font-size: 72px;
     font-family: Raleway;
     font-weight: bold;
@@ -551,8 +557,9 @@ html {
 }
 
 .contact-b .contact-bl p {
-    width: 812px;
-    height: 50px;
+    width: 100%;
+
+    /* height: 50px; */
     font-size: 40px;
     font-family: Raleway;
     font-weight: 400;
@@ -563,8 +570,8 @@ html {
 }
 
 .contact-b .contact-bl div {
-    width: 812px;
-    height: 329px;
+    width: 100%;
+    /* height: 329px; */
     opacity: 1;
 
 }
@@ -582,16 +589,17 @@ html {
 
 .contact-b .contact-br {
     width: 812px;
-    height: 500px;
+    min-height: 500px;
     background: url(./../images/location.png) no-repeat -295px -16px;
     background-size: 1202px 585px;
 }
 
 .about-t {
+    width: 100%;
     padding: 148px 140px 147px 140px;
     background: rgba(255, 255, 255, 1);
+    background: url('../images/construction.svg') no-repeat 100%;
     display: flex;
-
 }
 
 
@@ -633,9 +641,13 @@ html {
     height: 178px;
 }
 
+.about-t .about-tr {
+    display: none;
+}
+
 div.bg {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 250px;
     font-size: 72px;
     font-family: Raleway;
@@ -656,17 +668,8 @@ div.bg.bg_2 {
     background-size: 2035px 1228px;
 }
 
-/* .bg div {
-    position: absolute;
-    width: 1920px;
-    height: 250px;
-    background: rgba(0, 0, 0, 0.2);
-    left: 0;
-    top: 0;
-} */
-
 .about-c {
-    width: 1920px;
+    width: 100%;
     padding: 225px 140px;
     display: flex;
     background: rgba(242, 242, 242, 1);
@@ -695,7 +698,7 @@ div.bg.bg_2 {
 
 .about-c div p {
     width: 100%;
-    height: 233px;
+    height: auto;
     font-size: 18px;
     font-family: Raleway;
     font-weight: 400;
@@ -745,7 +748,7 @@ div.bg.bg_2 {
 }
 
 .tip {
-    width: 1920px;
+    width: 100%;
     height: 100px;
     background: rgba(60, 59, 58, 1);
     display: flex;
@@ -780,15 +783,15 @@ div.bg.bg_2 {
 }
 
 .thanks {
-    width: 1920px;
-    height: 700px;
+    width: 100%;
+    height: auto;
     background: rgba(255, 255, 255, 1);
     padding: 138px 140px 138px 140px;
     text-align: center;
 }
 
 .thanks h1 {
-    height: 180px;
+    min-height: 180px;
     font-size: 72px;
     font-family: Raleway;
     font-weight: bold;
@@ -803,7 +806,7 @@ div.bg.bg_2 {
 .thanks .pic {
     display: flex;
     height: 202px;
-    height: 1920px;
+    /* height: 1920px; */
     justify-content: space-between;
 }
 
@@ -824,6 +827,7 @@ div.bg.bg_2 {
         margin: 0;
         display: flex;
         flex-direction: column;
+        background: none;
     }
 
     .content .c-t-left {
@@ -863,6 +867,7 @@ div.bg.bg_2 {
     }
 
     .content .c-t .c-t-right {
+        display: block;
         width: 350px;
         height: 277px;
         margin-bottom: 20px;
@@ -906,6 +911,7 @@ div.bg.bg_2 {
     .discover-s .textBx,
     .discover-s.next .textBx {
         height: auto;
+        max-width: 100%;
         padding: 37px 80px 41px 82px;
     }
 
@@ -978,11 +984,13 @@ div.bg.bg_2 {
         flex-direction: column;
         padding: 75px 80px 25px 80px;
         align-items: center;
+        background: rgba(255, 255, 255, 1);
     }
 
     .about-t .about-tl {
         width: 608px;
         margin-top: 0px;
+
     }
 
     .about-t .about-tl h1 {
@@ -998,6 +1006,9 @@ div.bg.bg_2 {
         margin-bottom: 25px;
     }
 
+    .about-t .about-tr {
+        display: block;
+    }
 
     .about-t .about-tr img {
         width: 538px;
@@ -1266,7 +1277,6 @@ div.bg.bg_2 {
     .header .h-left .img {}
 
     .header .h-right {
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1296,22 +1306,27 @@ div.bg.bg_2 {
         justify-content: center;
         align-items: center;
         padding-top: 25px;
-
         margin-top: 0;
     }
 
     .content .c-t {
-        width: 301px;
-
+        max-width: 100%;
+        width: 767px;
     }
 
     .content .c-t .c-t-left {
-        width: 301px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .content .c-t .c-t-left h1 {
-        width: 301px;
-        height: 94px;
+        /* max-width: 100%; */
+        width: 100%;
+        height: auto;
+        max-height: 94px;
         font-size: 40px;
         font-family: Raleway;
         font-weight: bold;
@@ -1319,7 +1334,7 @@ div.bg.bg_2 {
     }
 
     .content .c-t .desc {
-        width: 301px;
+        width: 100%;
         height: auto;
         font-size: 20px;
         font-weight: 400;
@@ -1329,7 +1344,7 @@ div.bg.bg_2 {
     }
 
     .content .c-t-left .small-logo {
-        width: 301px;
+        width: 100%;
         margin-bottom: 8px;
     }
 
@@ -1339,6 +1354,7 @@ div.bg.bg_2 {
     }
 
     .content .c-t-left button {
+        width: 100%;
         font-size: 32px;
         font-family: Raleway;
         font-weight: bold;
@@ -1350,7 +1366,7 @@ div.bg.bg_2 {
     }
 
     .content .c-t .c-t-right {
-        width: 300px;
+        width: 100%;
         height: 200px;
         margin-bottom: 20px;
     }
@@ -1372,8 +1388,10 @@ div.bg.bg_2 {
     }
 
     .imgBx.school {
+        /* background: url(./../images/school.jpg) no-repeat -99px -91px;
+        background-size: calc(512px 342px; */
         background: url(./../images/school.jpg) no-repeat -99px -91px;
-        background-size: 512px 342px;
+        background-size: calc(100% + 140px) 342px;
     }
 
     .imgBx.entertainment {
@@ -1401,7 +1419,7 @@ div.bg.bg_2 {
     .discover-s .textBx p,
     .discover-s.next .textBx p {
         width: 100%;
-        height: 240px;
+        max-height: 240px;
         line-height: 35px;
         font-weight: 300;
         font-size: 16px;
@@ -1409,7 +1427,7 @@ div.bg.bg_2 {
     }
 
     .discover-s.next .textBx p {
-        height: 270px;
+        max-height: 270px;
     }
 
     .discover-s .textBx button,
@@ -1473,7 +1491,8 @@ div.bg.bg_2 {
 
     .contact-t .contact-tl p {
         width: 100%;
-        height: 205px;
+        height: auto;
+        max-height: 205px;
         font-size: 20px;
         margin-bottom: 13px;
     }
@@ -1542,7 +1561,7 @@ div.bg.bg_2 {
 
     .contact-b .contact-bl p {
         width: 100%;
-        height: 60px;
+        max-height: 60px;
         font-size: 24px;
         line-height: 32px;
         margin-bottom: 15px;
@@ -1562,8 +1581,9 @@ div.bg.bg_2 {
     .contact-b .contact-br {
         width: 100%;
         height: 250px;
+        min-height: 0;
         background: url(./../images/location.png) no-repeat -112px -12px;
-        background-size: 590px 283px;
+        background-size: calc(100% + 112px) 283px;
     }
 
 
