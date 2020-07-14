@@ -807,7 +807,7 @@ div.bg.bg_2 {
     justify-content: space-between;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
     .header {
         width: 768px;
         padding: 0px 80px;
@@ -1243,9 +1243,10 @@ div.bg.bg_2 {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:767px) {
     .container {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
         overflow: hidden;
     }
 
@@ -1262,13 +1263,10 @@ div.bg.bg_2 {
         margin-bottom: 21px;
     }
 
-    .header .h-left .img {
-        width: 375px;
-
-    }
+    .header .h-left .img {}
 
     .header .h-right {
-        width: 375px;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1292,8 +1290,13 @@ div.bg.bg_2 {
     /* home中间 */
 
     .content {
-        width: 375px;
-        padding: 25px 37px 0px 37px;
+        max-width: 100%;
+        width: 767px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+
         margin-top: 0;
     }
 
@@ -1357,12 +1360,14 @@ div.bg.bg_2 {
     }
 
     .discover-s {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
     }
 
     .discover-s .imgBx,
     .discover-s.next .imgBx {
-        width: 375px;
+
+        width: 100%;
         height: 200px;
     }
 
@@ -1373,12 +1378,12 @@ div.bg.bg_2 {
 
     .imgBx.entertainment {
         background: url(./../images/entertainment.jpg) no-repeat center center;
-        background-size: 376px 250px;
+        background-size: 100% 250px;
     }
 
     .discover-s .textBx,
     .discover-s.next .textBx {
-        width: 375px;
+        width: 100%;
         height: auto;
         padding: 25px 37px 35px 37px;
     }
@@ -1395,7 +1400,7 @@ div.bg.bg_2 {
 
     .discover-s .textBx p,
     .discover-s.next .textBx p {
-        width: 300px;
+        width: 100%;
         height: 240px;
         line-height: 35px;
         font-weight: 300;
@@ -1421,7 +1426,8 @@ div.bg.bg_2 {
     }
 
     .center {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
         flex-direction: column;
         align-items: center;
         height: auto;
@@ -1438,7 +1444,7 @@ div.bg.bg_2 {
     }
 
     .center .introduce {
-        width: 302px;
+        width: 100%;
         height: auto;
     }
 
@@ -1446,13 +1452,14 @@ div.bg.bg_2 {
 
     /* contact中间部 */
     .contact-t {
-        width: 375px;
+        max-width: 100%;
+        width: 767x;
         padding: 25px 37px 50px 36px;
     }
 
     .contact-t .contact-tl h1 {
-        width: 302px;
-        height: 177px;
+        width: 100%;
+        height: auto;
         font-size: 50px;
         font-weight: bold;
         line-height: 67px;
@@ -1460,24 +1467,24 @@ div.bg.bg_2 {
     }
 
     .contact-t .contact-tl {
-        width: 302px;
+        width: 100%;
         margin-bottom: 15px;
     }
 
     .contact-t .contact-tl p {
-        width: 302px;
+        width: 100%;
         height: 205px;
         font-size: 20px;
         margin-bottom: 13px;
     }
 
     .contact-t .contact-tl img {
-        width: 302px;
+        width: 100%;
         height: 204px;
     }
 
     .contact-t form {
-        width: 304px;
+        width: 100%;
         padding: 15px 14px 30px 15px;
         height: auto;
     }
@@ -1500,20 +1507,20 @@ div.bg.bg_2 {
 
     .contact-t form input {
         padding: 9px 12px 10px 20px;
-        width: 275px;
+        width: 100%;
         height: 40px;
         border-radius: 72px;
         margin-bottom: 13px;
     }
 
     .contact-t form textarea {
-        width: 275px;
+        width: 100%;
         height: 100px;
         padding: 8px 20px;
     }
 
     .contact-t form button {
-        width: 270px;
+        width: 100%;
         height: 50px;
         background: rgba(60, 59, 58, 1);
         font-size: 32px;
@@ -1522,11 +1529,11 @@ div.bg.bg_2 {
 
     .contact-b .contact-bl {
         padding: 25px 37px;
-        width: 375px;
+        width: 100%;
     }
 
     .contact-b .contact-bl h1 {
-        width: 301px;
+        width: 100%;
         height: 45px;
         font-size: 40px;
         line-height: 53px;
@@ -1534,7 +1541,7 @@ div.bg.bg_2 {
     }
 
     .contact-b .contact-bl p {
-        width: 301px;
+        width: 100%;
         height: 60px;
         font-size: 24px;
         line-height: 32px;
@@ -1542,7 +1549,7 @@ div.bg.bg_2 {
     }
 
     .contact-b .contact-bl div {
-        width: 301px;
+        width: 100%;
         height: 181px;
     }
 
@@ -1553,7 +1560,7 @@ div.bg.bg_2 {
     }
 
     .contact-b .contact-br {
-        width: 375px;
+        width: 100%;
         height: 250px;
         background: url(./../images/location.png) no-repeat -112px -12px;
         background-size: 590px 283px;
@@ -1562,16 +1569,17 @@ div.bg.bg_2 {
 
     /* about中间 */
     .about-t {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
         padding: 25px 37px 25px 37px;
     }
 
     .about-t .about-tl {
-        width: 302px;
+        width: 100%;
     }
 
     .about-t .about-tl h1 {
-        width: 302px;
+        width: 100%;
         line-height: 53px;
         font-size: 40px;
         margin-bottom: 20px;
@@ -1579,7 +1587,7 @@ div.bg.bg_2 {
 
     .about-t .about-tl strong,
     .about-t .about-tl p {
-        width: 302px;
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
         font-size: 20px;
@@ -1590,12 +1598,12 @@ div.bg.bg_2 {
     }
 
     .about-t .about-tr img {
-        width: 301px;
+        width: 100%;
         height: 185px;
     }
 
     div.bg {
-        width: 375px;
+        width: 100%;
         height: 200px;
         font-size: 50px;
         line-height: 200px;
@@ -1604,24 +1612,24 @@ div.bg.bg_2 {
 
     div.bg.bg_1 {
         background: #26A682 url(./../images/about.jpg) no-repeat center center;
-        background-size: 379px 253px;
+        background-size: 100% 253px;
     }
 
     div.bg.bg_2 {
         background: #26A682 url(./../images/services.jpg) no-repeat -19px -39px;
-        background-size: 416px 250px;
+        background-size: calc(100% + 19px) 250px;
     }
 
 
 
     .about-c {
-        width: 375px;
+        width: 100%;
         padding: 25px 37px 5px 36px;
         flex-direction: column;
     }
 
     .about-c div {
-        width: 302px;
+        width: 100%;
     }
 
     .about-c div h1 {
@@ -1642,13 +1650,13 @@ div.bg.bg_2 {
 
     .discover-s.white,
     .discover-s.glay {
-        width: 375px;
+        width: 100%;
         padding: 20px 37px 25px 36px;
     }
 
     .discover-s.white .textBx p,
     .discover-s.glay .textBx p {
-        width: 302px;
+        width: 100%;
         height: auto;
         font-size: 15px;
         line-height: 35px;
@@ -1656,13 +1664,13 @@ div.bg.bg_2 {
 
     .discover-s.white .textBx,
     .discover-s.next.glay .textBx {
-        width: 302px;
+        width: 100%;
         height: auto;
         padding: 0;
     }
 
     .tip {
-        width: 375px;
+        width: 100%;
         height: 120px;
         flex-direction: column;
         justify-content: center;
@@ -1690,19 +1698,20 @@ div.bg.bg_2 {
     }
 
     .thanks {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
         padding: 30px 37px 0px 36px;
     }
 
     .thanks h1 {
-        width: 302px;
+        width: 100%;
         height: auto;
         font-size: 56px;
         margin-bottom: 30px;
     }
 
     .thanks .pic img:first-child {
-        width: 301px;
+        width: 100%;
         height: 87px;
         margin-bottom: 44px;
     }
@@ -1713,7 +1722,8 @@ div.bg.bg_2 {
 
     /* 底部 */
     .footer {
-        width: 375px;
+        max-width: 100%;
+        width: 767px;
     }
 
     .footer .back {
@@ -1721,7 +1731,6 @@ div.bg.bg_2 {
     }
 
     .footer .back p {
-
         height: 12px;
         font-size: 9px;
         font-family: Raleway;
