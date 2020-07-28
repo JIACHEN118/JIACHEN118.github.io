@@ -1,0 +1,8 @@
+@charset "utf-8";
+.pic-list-card .card{
+	margin-bottom: 15px;
+}
+.highlight{
+	    background: #eee;
+	    padding: 10px 5px 0;
+}
