@@ -1,0 +1,318 @@
+@charset "utf-8";
+.container{
+    width: 95%;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0!important;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav a{
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+}
+.s-nav a:hover{
+    color: #fff!important;
+    background-color: rgb(69,155,225);
+}
+.nav-active{
+    color: #fff!important;
+    background-color: rgb(69,155,225);
+}
+.nav a:hover{
+    color: #fff!important;
+    background-color: rgb(69,155,225);
+}
+.s-nav li{
+    background-color: #fff;
+    float: left;
+}
+.footer{
+    background-color: rgb(180,227,248);
+}
+
+
+@media screen and (min-width: 1200px) {
+    .title{
+        font-size: 55px;
+        text-align: center;
+        padding: 80px 0;
+        font-weight: bold;
+    }
+    .top-title h1{
+        font-size: 100px;
+        font-weight: bold;
+        color: rgb(102,179,245);
+    }
+    .nav {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        font-size: 3rem;
+    }
+    .nav a{
+        color: #000;
+        font-size: 45px;
+        line-height: 100px;
+    }
+    .s-nav a{
+        padding: 5px;
+        font-size: 25px;
+        color: #000;
+        margin-right: 10px;
+    }
+    .search-pic img{
+        width: 100%;
+        max-height: 580px;
+    }
+    .search-input input{
+        font-size: 40px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .search-input input::placeholder{
+        color: #000;
+    }
+    .search-input button{
+        height: 100px;
+        border: none;
+        background: url("../images/search.png") rgb(69,155,225) no-repeat  center/100px;
+
+    }
+    .search-input form div{
+        padding: 0;
+    }
+    .search-input {
+        padding-top: 10%;
+    }
+    .b-nav li{
+        float: left;
+        width: 33.3%;
+        padding: 30px 0;
+    }
+    .b-nav a{
+        display: block;
+        width: 70%;
+        border-radius: 80px;
+        color: #fff;
+        font-size: 40px;
+        line-height: 80px;
+        text-align: center;
+        background-color: rgb(104,107,110);
+        margin: auto;
+    }
+    .b-tet{
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0 2%;
+    }
+    .b-main{
+        padding-bottom: 30px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 736px) and (max-width: 1199px){
+    .title{
+        font-size: 40px;
+        text-align: center;
+        padding: 80px 0;
+        font-weight: bold;
+    }
+    .top-title h1{
+        font-size: 80px;
+        font-weight: bold;
+        color: rgb(102,179,245);
+    }
+    .nav {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .nav a{
+        color: #000;
+        font-size: 30px;
+        line-height: 100px;
+    }
+    .s-bg{
+        position: absolute;
+        z-index: -999;
+    }
+
+    .search{
+        position: relative;
+        margin-bottom: 150px;
+    }
+    .s-nav ul{
+
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .s-nav a{
+        padding: 5px;
+        font-size: 25px;
+        color: #000;
+        margin-right: 10px;
+    }
+    .search-pic img{
+        width: 100%;
+        max-height: 380px;
+    }
+    .search-input{
+        float: right;
+        margin-right: 10%;
+    }
+    .search-input input{
+        font-size: 30px;
+        height: 60px;
+        line-height: 100px;
+    }
+    .search-input input::placeholder{
+        color: #000;
+    }
+    .search-input button{
+        height: 60px;
+        border: none;
+        background: url("../images/search.png") rgb(69,155,225) no-repeat  center/50px;
+
+    }
+    .search-input form div{
+        padding: 0;
+    }
+    .search-input {
+        padding-top: 15%;
+    }
+    .b-nav li{
+        float: left;
+        width: 33.3%;
+        padding: 20px 0;
+    }
+    .b-nav a{
+        display: block;
+        width: 70%;
+        border-radius: 80px;
+        color: #fff;
+        font-size: 30px;
+        line-height: 80px;
+        text-align: center;
+        background-color: rgb(104,107,110);
+        margin: auto;
+    }
+    .b-tet{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 2%;
+    }
+    .b-main{
+        padding-bottom: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 735px) and (min-width: 300px){
+    .title{
+        font-size: 40px;
+        text-align: center;
+        padding: 30px 0;
+        font-weight: bold;
+    }
+    .top-title h1{
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(102,179,245);
+    }
+    .nav {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .nav a{
+        color: #000;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .s-bg{
+        position: absolute;
+        z-index: -999;
+    }
+
+    .search{
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .s-nav ul{
+
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .s-nav a{
+        padding: 5px;
+        font-size: 20px;
+        color: #000;
+        margin-right: 10px;
+    }
+    .search-pic img{
+        width: 100%;
+        max-height: 200px;
+    }
+    .search-input{
+        float: right;
+        margin-right: 8%;
+    }
+    .search-input input{
+        font-size: 20px;
+        height: 40px;
+        line-height: 100px;
+    }
+    .search-input input::placeholder{
+        color: #000;
+    }
+    .search-input button{
+        height: 40px;
+        border: none;
+        background: url("../images/search.png") rgb(69,155,225) no-repeat  center/30px;
+
+    }
+    .search-input form div{
+        padding: 0;
+    }
+    .search-input {
+        padding-top: 8%;
+    }
+    .b-nav li{
+        float: left;
+        width: 33.3%;
+        padding: 20px 0;
+    }
+    .b-nav a{
+        display: block;
+        width: 70%;
+        border-radius: 80px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 60px;
+        text-align: center;
+        background-color: rgb(104,107,110);
+        margin: auto;
+    }
+    .b-tet{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0 2%;
+    }
+    .b-main{
+        padding-bottom: 30px;
+    }
+    .b-pic{
+        margin-bottom: 30px;
+    }
+
+
+
+}
